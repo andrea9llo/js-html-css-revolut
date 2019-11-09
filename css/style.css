@@ -1,0 +1,63 @@
+/* regole generali */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:  "Helvetica Neue", Helvetica, "Segoe UI", Arial, sans-serif;
+}
+
+a{
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.4);
+}
+a:hover{
+  color: black;
+}
+ul{
+  list-style-type: none
+}
+
+/* navbar */
+nav{
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 8%;
+}
+.menu-nav-left > ul,.menu-nav-right > ul{
+  display: flex;
+}
+.menu-nav-left > ul > li,.menu-nav-right > ul > li{
+  margin: 0 15px;
+}
+
+#pers{
+  color: black;
+}
+
+li a i.fas{
+  display: none;
+}
+li a i.active{
+  display: inline-block;
+}
+.position-drop{
+  position: relative;
+
+}
+.dropdown{
+  padding: 15px;
+  border: 1px solid rgba(0,0,0,0.5);
+  position: absolute;
+  top: 20px;
+  left: 5px;
+  display: none;
+}
+.botton{
+  padding: 10px;
+  border-radius: 25px;
+  background-color: rgb(235, 0, 141);
+  color: white;
+}
+.botton:hover{
+  color: white;
+}
